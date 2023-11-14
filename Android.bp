@@ -17,4 +17,8 @@ android_app {
     optimize: {
         proguard_flags_files: ["proguard.flags"],
     },
+
+    static_libs: [
+        "setupdesign-lottie-loading-layout",
+    ],
 }
